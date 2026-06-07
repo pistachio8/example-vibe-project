@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { postFeedback } from "@/lib/api/axios-client";
+import { postFeedback } from "@/lib/api/feedback-client";
 
 export function FeedbackForm({ slug }: { slug: string }) {
   const [rating, setRating] = useState(5);
